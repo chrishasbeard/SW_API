@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "DisplayPlanet";
+}
+@model  PlanetRoot
+<h1>DisplayPlanet</h1>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Rotation Period</th>
+        <th>Diameter</th>
+        <th>Gravity</th>
+        <th>Films</th>
+    </tr>
+
+
+    <tr>
+        <td>@Model.name</td>
+        <td>@Model.rotation_period</td>
+        <td>@Model.diameter</td>
+        <td>@Model.gravity</td>
+        <td>@Model.films</td>
+
+    </tr>
+
+
+</table>
